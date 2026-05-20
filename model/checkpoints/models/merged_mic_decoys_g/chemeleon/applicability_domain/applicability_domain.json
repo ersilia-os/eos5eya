@@ -1,0 +1,8 @@
+{
+  "n_components": 45,
+  "n_features_in": 2048,
+  "n_cal_knots": 200,
+  "cal_min": 3.1743662357330322,
+  "cal_max": 27.117916107177734,
+  "scaler": "standard"
+}
