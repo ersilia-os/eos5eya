@@ -1,3 +1,9 @@
+# Sub-models under model/checkpoints/models/ and model/checkpoints/reports.csv
+# ship via regular git. Descriptor weights live in $HOME/.lazyqsar/ — they are
+# downloaded at install time by `lazyqsar setup` and never committed here.
+model/framework/fit/*
+!model/framework/fit/.gitkeep
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
