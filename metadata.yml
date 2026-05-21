@@ -1,9 +1,14 @@
 Identifier: eos5eya
 Slug: antimicrobial-activity-ecoli
 Status: In progress
-Title: Antimicrobial activity prediction against Escherichia coli from public ChEMBL and PubChem data
-Description: >
-  Bioactivity prediction of growth inhibition in Escherichia coli, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL and PubChem. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (percent inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
+Title: Antimicrobial activity prediction against Escherichia coli from public 
+  ChEMBL and PubChem data
+Description: Bioactivity prediction of growth inhibition in Escherichia coli, 
+  trained as binary (active/inactive) classifiers from publicly available data 
+  in ChEMBL and PubChem. Independent models are trained on multiple bioactivity 
+  datasets, corresponding to single-point (percent inhibition) and dose-response
+  (MIC) assays, among others. A ranking score is provided for each model 
+  alongside a combined consensus score.
 Deployment:
   - Local
   - Online
@@ -18,7 +23,9 @@ Output:
   - Score
 Output Dimension: 28
 Output Consistency: Fixed
-Interpretation: Probability of antimicrobial activity against Escherichia coli from 27 ChEMBL- and PubChem-trained sub-models, plus a quality-weighted consensus score.
+Interpretation: Probability of antimicrobial activity against Escherichia coli 
+  from 27 ChEMBL- and PubChem-trained sub-models, plus a quality-weighted 
+  consensus score.
 Tag:
   - Gram-negative bacteria
   - Antimicrobial activity
@@ -33,3 +40,4 @@ Publication: https://github.com/ersilia-os/chembl-antimicrobial-models
 Source Code: https://github.com/ersilia-os/chembl-antimicrobial-models
 License: GPL-3.0-or-later
 Contributor: arnaucoma24
+Incorporation Date: '2026-05-19'
