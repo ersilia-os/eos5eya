@@ -45,8 +45,8 @@ Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5eya.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos5eya
 Docker Architecture: AMD64
-Model Size: 450.0
-Environment Size: 1888.0
+Model Size: 679.0
+Environment Size: 1889.0
 Image Size: 2925.79
 Computational Performance 1: 64.5
 Computational Performance 2: 54.79
