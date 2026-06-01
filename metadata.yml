@@ -22,7 +22,9 @@ Output:
   - Score
 Output Dimension: 30
 Output Consistency: Fixed
-Interpretation: Probability of antimicrobial activity against Escherichia coli from 29 ChEMBL- and PubChem-trained sub-models, plus a quality-weighted consensus score.
+Interpretation: Probability of antimicrobial activity against Escherichia coli 
+  from 29 ChEMBL- and PubChem-trained sub-models, plus a quality-weighted 
+  consensus score.
 Tag:
   - Gram-negative bacteria
   - Antimicrobial activity
