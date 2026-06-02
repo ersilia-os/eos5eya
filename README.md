@@ -2,7 +2,7 @@
 
 Bioactivity prediction of growth inhibition in Escherichia coli, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL and PubChem. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (percent inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
 
-This model was incorporated on 2026-05-19.Last packaged on 2026-06-01.
+This model was incorporated on 2026-05-19.Last packaged on 2026-06-02.
 
 ## Information
 ### Identifiers
@@ -50,11 +50,11 @@ _10 of 30 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `679`
 - **Environment Size (Mb):** `1890`
-- **Image Size (Mb):** `3188.36`
+- **Image Size (Mb):** `3188.44`
 
 **Computational Performance (seconds):**
-- 10 inputs: `73.1`
-- 100 inputs: `71.83`
+- 10 inputs: `71.09`
+- 100 inputs: `72.41`
 - 10000 inputs: `-1`
 
 ### References
