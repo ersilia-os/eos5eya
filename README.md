@@ -2,7 +2,7 @@
 
 Bioactivity prediction of growth inhibition in Escherichia coli, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL and PubChem. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (Inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
 
-This model was incorporated on 2026-05-19.Last packaged on 2026-06-02.
+This model was incorporated on 2026-05-19.Last packaged on 2026-07-22.
 
 ## Information
 ### Identifiers
@@ -44,18 +44,18 @@ _10 of 13 columns are shown_
 - **Source:** `Local`
 - **Source Type:** `Internal`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos5eya](https://hub.docker.com/r/ersiliaos/eos5eya)
-- **Docker Architecture:** `AMD64`
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5eya.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5eya.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `513`
 - **Environment Size (Mb):** `7208`
-- **Image Size (Mb):** `3170.1`
+- **Image Size (Mb):** `7784.05`
 
 **Computational Performance (seconds):**
-- 10 inputs: `76.62`
-- 100 inputs: `83.18`
-- 10000 inputs: `-1`
+- 10 inputs: `59.13`
+- 100 inputs: `53.82`
+- 10000 inputs: `1534.9`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/chembl-antimicrobial-models](https://github.com/ersilia-os/chembl-antimicrobial-models)
