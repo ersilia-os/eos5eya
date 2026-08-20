@@ -1,6 +1,6 @@
 # Antimicrobial activity prediction against Escherichia coli from public ChEMBL and PubChem data
 
-Predicts growth inhibition of Escherichia coli, the workhorse organism of antibacterial screening and consequently one of the better-covered pathogens in public data. Twelve binary classifiers were trained over separate ChEMBL and PubChem assay pools, keeping single-point percentage inhibition apart from dose-response MIC measurements since the two encode activity differently. A quality-weighted consensus combines them, favouring models built on larger and more reliable pools.
+Bioactivity prediction of growth inhibition in Escherichia coli, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL and PubChem. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (Inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
 
 This model was incorporated on 2026-05-19.Last packaged on 2026-07-22.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2026-05-19.Last packaged on 2026-07-22.
 ### Output
 - **Output Dimension:** `13`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of Escherichia coli growth inhibition across twelve sub-models, plus a weighted consensus.
+- **Interpretation:** Probability of antimicrobial activity against Escherichia coli from 12 ChEMBL- and PubChem-trained sub-models, plus a quality-weighted consensus score.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
